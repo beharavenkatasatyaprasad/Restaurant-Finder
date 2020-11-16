@@ -1,0 +1,129 @@
+body{
+    background-color: aliceblue;
+    font-family: 'Oswald';
+}
+.bg-img{
+    background: url(imgs/cover-img.jpg) center top;
+    background-size: cover;
+}
+
+.input-group{
+    padding: 10%;
+}
+
+.search-btn{
+    background-color:  rgb(203, 32, 45);
+    font-variant: small-caps;
+    letter-spacing: 0.8px;
+    color: rgb(255, 255, 255);
+    font-size: 100%;
+    font-weight: normal;
+    transition: 0.5s;
+}
+.search-btn:hover {
+    background-color:  rgba(255, 0, 21, 0.733);
+    color: rgb(0, 0, 0);
+    font-size: 120%;
+    letter-spacing: 2px;
+}
+
+.data{
+    font-size: 110%;
+    padding: 3%;
+    letter-spacing: 2px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    font-family: 'Poppins';
+    overflow: hidden;
+}
+
+.data-container{
+    background-color:#dcdcdc;
+    margin: 5% 15%;
+    transition-duration: 0.8s;
+}
+
+.data-container:hover {
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+  
+.data-description{
+    font-family: "Oswald";
+    color: #fff;
+    font-size: 200%;
+    font-variant: small-caps;
+    letter-spacing: 1px;
+    background-color:  rgb(203, 32, 45);
+}
+
+.geo-header p{
+    font-size: 50px;
+}
+
+.data-row{
+    background-color: rgba(255, 255, 255, 0.911);
+}
+.restaurant-container{
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    background-color: rgb(201, 201, 201);
+    margin: 3%;
+    font-variant: small-caps;
+    border-radius: 10px;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+.restaurant-container img{
+    width: 100%;;
+    height: auto;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    
+}
+
+.restaurant-name{
+    background-color:gainsboro;
+    color:  rgb(203, 32, 45);
+    font-variant: small-caps;
+    font-size: 130%;
+    padding: 0.5%;
+    letter-spacing: 2px;
+    overflow: hidden;
+}
+
+.restaurant-content{
+    padding: 3%;
+    text-align: center;
+}
+
+.restaurant-name p{
+    color: rgb(0, 0, 0);
+    font-size: 50%;
+}
+
+
+.order-now{
+    margin: 0px;
+    padding: 0px;
+}
+
+.order-btn{
+    background-color:  rgb(203, 32, 45);
+    font-variant: small-caps;
+    letter-spacing: 0.8px;
+    color: rgb(255, 255, 255);
+    font-size: 100%;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    font-weight: normal;
+    transition: 0.5s;
+}
+.order-btn:hover {
+    color: rgb(0, 0, 0);
+    font-size: 110%;
+    letter-spacing: 2px;
+}
+
+@media(max-width:400px){
+    .data-row{
+        margin-top: 20%;
+    }
+}
