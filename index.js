@@ -16,10 +16,10 @@ var requestOptions = {
     redirect: 'follow'
   };
 function showPosition(position) {
-    // latitude = position.coords.latitude;
-    // longitude = position.coords.longitude;
-    latitude = "17.4875"
-    longitude = "78.3953"
+    latitude = position.coords.latitude;
+    longitude = position.coords.longitude;
+//     latitude = "17.4875"
+//     longitude = "78.3953"
     async function getData(){
         const res = await fetch("https://developers.zomato.com/api/v2.1/geocode?lat="+latitude+"&lon="+longitude , requestOptions);
 	    const data = await res.json();
