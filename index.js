@@ -97,7 +97,8 @@ const requestOptions = {
     redirect: 'follow'
   };
 function showPosition(position) {
-    geolocation.innerHTML="LOADING...."
+    geolocation.innerHTML="LOADING....";
+    restaurant_data_container.innerHTML = '';
     latitude = position.coords.latitude;
     longitude = position.coords.longitude;
     // latitude = "17.4875"
