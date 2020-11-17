@@ -12,7 +12,7 @@
 
 The app is integrated by using the Zomato Api's `/geolocation` Endpoint.
 
-I have used HTML,CSS & JavaScript on the to develop this Webapp.
+The project is fully dependependent on DOM.
 
 #### Users are able to:
 
