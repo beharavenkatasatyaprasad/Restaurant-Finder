@@ -10,16 +10,16 @@
 
 ## The Webapp
 
-The app is integrated by using the Zomato Api's `/geolocation` Endpoint.
+##### The app is integrated by using the Zomato Api's `/geolocation` Endpoint.
 
-I have used HTML,CSS & JavaScript (Jquery,DOM) to develop the Webapp.
+#### I have used HTML,CSS & JavaScript (Jquery,DOM) to develop the Webapp.
 
-#### Users are able to:
+### Users are able to:
 
 ##### - Give access to give access to get their geolocation
 
 ##### - Access all the Restarants data in nearby location.
 
----
-### Click [here](https://resto-finder-webapp.netlify.app/) to preview the app.
----
+### Click [here](https://resto-finder-webapp.netlify.app/) to preview the app..
+
+<img  src="gifs/bars.gif" alt=""/>
