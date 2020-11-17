@@ -34,6 +34,7 @@ body{
     font-size: 100%;
     font-weight: normal;
     transition: 0.5s;
+    z-index: 999;
 }
 .search-btn:hover {
     background-color:  rgba(255, 0, 21, 0.733);
