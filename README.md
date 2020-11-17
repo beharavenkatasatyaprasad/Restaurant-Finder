@@ -16,7 +16,7 @@
 
 ##### - Give access to give access to get their geolocation
 
-##### - Access all the Restarants data in nearby location.
+##### - Access all the Restaurants data in nearby location.
 
 ##### Click [here](https://resto-finder-webapp.netlify.app/) to preview the app..
 
