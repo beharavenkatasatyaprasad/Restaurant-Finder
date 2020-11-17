@@ -19,8 +19,13 @@ var requestOptions = {
 function showPosition(position) {
     latitude = position.coords.latitude;
     longitude = position.coords.longitude;
+<<<<<<< HEAD
     // latitude = "17.4875"
     // longitude = "78.3953"
+=======
+//     latitude = "17.4875"
+//     longitude = "78.3953"
+>>>>>>> b9c84254a7d47a5412dc5eb46b443e4714b78e4c
     async function getData(){
         const res = await fetch("https://developers.zomato.com/api/v2.1/geocode?lat="+latitude+"&lon="+longitude , requestOptions);
 	    const data = await res.json();
