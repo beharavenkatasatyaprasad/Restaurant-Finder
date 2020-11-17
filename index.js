@@ -9,6 +9,7 @@ function getLocation() {
   } else { 
     location_btn.innerHTML = "Geolocation is not supported by this browser.";
   }
+
 }
 var requestOptions = {
     method: 'GET',
@@ -16,10 +17,10 @@ var requestOptions = {
     redirect: 'follow'
   };
 function showPosition(position) {
-    // latitude = position.coords.latitude;
-    // longitude = position.coords.longitude;
-    latitude = "17.4875"
-    longitude = "78.3953"
+    latitude = position.coords.latitude;
+    longitude = position.coords.longitude;
+    // latitude = "17.4875"
+    // longitude = "78.3953"
     async function getData(){
         const res = await fetch("https://developers.zomato.com/api/v2.1/geocode?lat="+latitude+"&lon="+longitude , requestOptions);
 	    const data = await res.json();
@@ -32,7 +33,7 @@ function showPosition(position) {
         const restaurants = data.nearby_restaurants
         console.log(restaurants)
         geolocation.innerHTML = (`
-            <div class="row data-row">
+            <div class="fade-in row data-row">
                 <div class="col-sm-4 col-md-6 col-lg-4">
                     <div class="data-container ">
                         <div class="data-description">
@@ -67,9 +68,9 @@ function showPosition(position) {
 `)      
         restaurants.forEach(rest => {
             const dataEl = document.createElement('div');
-            dataEl.setAttribute("class" , "col-sm-4")
+            dataEl.setAttribute("class" , "fade-in restaurant-card col-sm-4")
             dataEl.innerHTML=
-                `<div class="col-sm-12 restaurant-data p-0 m-2">
+                `<div class="col-sm-12 restaurant-data p-0">
                 <div class="restaurant-container p-0 m-0 col-sm-12">
                     <div class="restaurant-photo p-0 m-0 col-sm-12">
                         <img src="${rest.restaurant.featured_image}" alt="">
