@@ -3,6 +3,7 @@
 </a>
 
 # Resto Finder WebApp
+--------------------
 
 ## Welcome! 👋
 
@@ -20,4 +21,6 @@ I have used HTML,CSS & JavaScript on the to develop this Webapp.
 
 ##### - Access all the Restarants data in nearby location.
 
-Click [here](https://resto-finder-webapp.netlify.app/) to preview the app.
+---
+### Click [here](https://resto-finder-webapp.netlify.app/) to preview the app.
+---
