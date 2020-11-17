@@ -2,13 +2,11 @@
     <img src="imgs/RestoFinderLogo.png" alt=""  align="right" height="60">
 </a>
 
-# Resto Finder WebApp
-
 ## Welcome! 👋
 
 #### Thanks for checking out this repo [restaurant-finder](https://github.com/beharavenkatasatyaprasad/restaurant-finder/)
 
-## The Webapp
+## Resto Finder WebApp
 
 ##### The app is integrated by using the Zomato Api's `/geolocation` Endpoint.
 
@@ -22,4 +20,4 @@
 
 ### Click [here](https://resto-finder-webapp.netlify.app/) to preview the app..
 
-<img  src="gifs/bars.gif" alt=""/>
+<img  src="https://github.com/beharavenkatasatyaprasad/beharavenkatasatyaprasad/blob/main/gifs/bars.gif" alt=""/>
