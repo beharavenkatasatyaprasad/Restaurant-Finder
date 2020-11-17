@@ -3,7 +3,6 @@
 </a>
 
 # Resto Finder WebApp
---------------------
 
 ## Welcome! 👋
 
