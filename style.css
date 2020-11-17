@@ -37,9 +37,9 @@ body{
     z-index: 999;
 }
 .search-btn:hover {
-    background-color:  rgba(255, 0, 21, 0.733);
+    background-color:  rgba(255, 0, 21);
     color: rgb(0, 0, 0);
-    font-size: 120%;
+    /* font-size: 120%; */
     letter-spacing: 2px;
 }
 
