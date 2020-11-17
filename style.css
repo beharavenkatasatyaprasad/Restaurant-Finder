@@ -14,16 +14,17 @@
 
 
 body{
-    background-color: aliceblue;
+    background-color: #f0f8ff;
     font-family: 'Oswald';
 }
 .bg-img{
     background: url(imgs/cover-img.jpg) center top;
     background-size: cover;
+    
 }
 
 .input-group{
-    padding: 10%;
+    padding: 12% 30%;
 }
 
 .search-btn{
@@ -70,7 +71,9 @@ body{
     letter-spacing: 1px;
     background-color:  rgb(203, 32, 45);
 }
-
+/* .geolocation-container{
+    padding-top : 4%
+} */
 .geo-header p{
     font-size: 50px;
 }
@@ -135,16 +138,31 @@ body{
 }
 .order-btn:hover {
     color: rgb(0, 0, 0);
-    font-size: 110%;
-    letter-spacing: 2px;
+    letter-spacing: 6px;
+    background-color:rgba(255, 0, 21);
 }
 
 .restaurant-card{
     height: 100;
 }
 
-@media(max-width:400px){
-    .data-row{
-        margin-top: 20%;
+@media(max-width:600px){
+    .input-group{
+        padding: 12% 2%;
+    }
+    
+    .search-btn{
+        background-color:  rgb(203, 32, 45);
+        font-variant: small-caps;
+        letter-spacing: 0.2px;
+        color: rgb(255, 255, 255);
+        font-size: 80%;
+        transition: 0.5s;
+        z-index: 999;
+    }
+    .search-btn:hover {
+        background-color:  rgba(255, 0, 21);
+        color: rgb(0, 0, 0);
+        letter-spacing: 0.6px;
     }
 }
