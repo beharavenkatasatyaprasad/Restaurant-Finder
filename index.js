@@ -90,7 +90,6 @@ function getLocation() {
   } else { 
     button_.innerHTML = "Geolocation is not supported by this browser.";
   }
-    geolocation.innerHTML="LOADING...."
 }
 const requestOptions = {
     method: 'GET',
@@ -98,6 +97,7 @@ const requestOptions = {
     redirect: 'follow'
   };
 function showPosition(position) {
+    geolocation.innerHTML="LOADING...."
     latitude = position.coords.latitude;
     longitude = position.coords.longitude;
     // latitude = "17.4875"
