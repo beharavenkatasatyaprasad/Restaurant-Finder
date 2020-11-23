@@ -18,9 +18,9 @@ body{
     font-family: 'Oswald';
 }
 .bg-img{
-    background: url(imgs/cover-img.jpg) center top;
-    background-size: cover;
-    background-attachment: fixed;
+    background: url(imgs/cover-img.jpg) center top !important;
+    background-size: cover !important;
+    background-attachment: fixed !important;
 }
 
 .input-group{
