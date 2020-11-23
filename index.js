@@ -3,7 +3,6 @@ navigationbar.className = 'navbar';
 navigationbar.id= 'navbar_top'
 navigationbar.classList.add("p-0");
 navigationbar.classList.add("shadow");
-navigationbar.classList.add("fade-in");
 navigationbar.classList.add("justify-content-center");
 navigationbar.style = 'background-color: rgb(203, 32, 45)'
 document.body.appendChild(navigationbar)
@@ -287,9 +286,9 @@ function showPosition(position) {
     }     
 
 }
-if ($(window).width() > 992) {
+if ($(window).width() > 300) {
   $(window).scroll(function(){  
-     if ($(this).scrollTop() > 40) {
+     if ($(this).scrollTop() > 60) {
         $('#navbar_top').addClass("fixed-top");
         // add padding top to show content behind navbar
         $('body').css('padding-top', $('.navbar').outerHeight() + 'px');
