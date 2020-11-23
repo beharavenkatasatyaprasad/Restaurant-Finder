@@ -20,7 +20,7 @@ body{
 .bg-img{
     background: url(imgs/cover-img.jpg) center top;
     background-size: cover;
-    
+    background-attachment: fixed;
 }
 
 .input-group{
