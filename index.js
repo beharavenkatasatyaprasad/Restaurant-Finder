@@ -288,7 +288,7 @@ function showPosition(position) {
 }
 if ($(window).width() > 300) {
   $(window).scroll(function(){  
-     if ($(this).scrollTop() > 60) {
+     if ($(this).scrollTop() > 449) {
         $('#navbar_top').addClass("fixed-top");
         // add padding top to show content behind navbar
         $('body').css('padding-top', $('.navbar').outerHeight() + 'px');
