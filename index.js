@@ -290,6 +290,7 @@ if ($(window).width() > 300) {
   $(window).scroll(function(){  
      if ($(this).scrollTop() > 449) {
         $('#navbar_top').addClass("fixed-top");
+        $('#navbar_top').addClass("fade-in");
         // add padding top to show content behind navbar
         $('body').css('padding-top', $('.navbar').outerHeight() + 'px');
       }else{
