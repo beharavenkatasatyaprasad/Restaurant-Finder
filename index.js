@@ -3,6 +3,7 @@ navigationbar.className = 'navbar';
 navigationbar.id= 'navbar_top'
 navigationbar.classList.add("p-0");
 navigationbar.classList.add("shadow");
+navigationbar.classList.add("fade-in");
 navigationbar.classList.add("justify-content-center");
 navigationbar.style = 'background-color: rgb(203, 32, 45)'
 document.body.appendChild(navigationbar)
